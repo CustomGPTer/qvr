@@ -1,11 +1,18 @@
-QVR 2.4.0 test build.
+QVR 2.4.1 beta 1
 
-- The recordings list now shows a preview frame and the length of each video, including recordings made before this update.
-- Select several recordings at once: long-press, tick boxes, or Select all.
-- Export copies of the selected recordings to a folder you choose. The originals stay where they are.
-- Delete selected recordings together, after a confirmation.
-- A help section at the bottom of Settings explains every setting.
+Fixes
+- Tapping a recording icon or widget when QVR can't record (camera or microphone access turned off) now shows "QVR could not start" instead of closing the app.
+- Recordings you delete in your Gallery app drop out of QVR's list by themselves, and Dashcam keeps going.
+- Only your own QVR icons can start or stop a recording. Other apps on the phone can't.
+- Photo mode lets focus and brightness settle for about a second, so photos are sharper and better lit.
+- The main screen shows the right version number.
+- During a Camera1 recording the torch button is greyed out with a short note; set the torch before you start.
 
-Install over your current QVR 2.x. Do not uninstall to update: uninstalling deletes private recordings you have not exported.
+New
+- An animated opening screen, and a cleaner start-up screen on Android 12 and later.
+- Settings > About QVR: website, check for updates, more apps, privacy policy and email, all on torusapps.com.
 
-Android 10 or later. QVR has no internet access, no adverts and no account.
+Removed
+- GPS tagging (QVR no longer asks for your location) and recording reminders.
+
+Install over your current QVR to keep your settings and recordings.
